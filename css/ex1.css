@@ -1,0 +1,32 @@
+.text{
+    width:60%;
+}
+.text h1{
+    
+    color:tomato;
+    font-size: 50px;
+    text-align: center;
+   
+}
+h2{
+    color:dodgerblue;
+  margin-left: 20px;
+  
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  float: right;
+  background-position: right;
+ 
+}
