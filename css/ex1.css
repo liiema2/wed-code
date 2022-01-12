@@ -27,6 +27,6 @@ body {
     background-repeat: no-repeat;
   background-attachment: fixed;
   float: right;
-  background-position: right;
- 
+  background-position: bottom right;
+ font-size:24px;
 }
