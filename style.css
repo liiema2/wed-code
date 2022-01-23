@@ -1,0 +1,219 @@
+:root{
+    --color:#35CD8C;
+
+}
+h1{
+    color: var(color)
+}
+*{
+    box-sizing: border-box;
+}
+#header{
+   
+   
+    display: flex;
+    position: relative;
+}
+#header nav {
+    display: flex;
+    width:75%;
+    background-color: #FFF5EC;
+    height:1048px;
+}
+nav div {
+font-size: 72px;
+color: var(--color);
+margin-top: 20px;
+margin-left: 65px;
+}
+
+.header-container {
+    font-size:16px;
+  
+    
+    margin-top: 67px;
+   margin-left: 200px;
+}
+.header-container a {
+    
+    text-decoration: none;
+    margin-right:40px;
+}
+.header-container-icon{
+    width: 25%;
+ background-color: var(--color);
+ display: flex;
+
+}
+
+.header-container-icon-use{
+    width: 52px;
+height: 52px;
+background-color: white;
+border-radius: 50%;
+text-align: center;
+margin-left: 230px;
+margin-top: 48px;
+position: relative;
+
+}
+.header-container-icon-use div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #31A24C;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.header-container-icon-use i{
+    margin-top:11px;
+    width:30px;height:30px;
+    font-size: 30px;
+  
+}
+.header-container-icon-use_2{
+  
+margin-top: 67px;
+color:white;
+
+margin-left:9px;
+}
+.header-container-food {
+position:absolute;
+top: 238px;
+left:69px;
+font-size: 200px;
+color: #2E266F;
+opacity: 0.5;
+
+}
+.header-container-food_1{
+position:absolute;
+top: 426px;
+left:69px;
+font-size: 72px;
+color:#2E266F;
+
+}
+.header-container-img-background{
+    width: 738px;
+  
+    position: absolute;
+    top:176px;
+    
+    left:730px;
+}
+.header-img{
+    position:absolute;
+ top:50px;
+  width: 46%;
+
+}
+
+.header-img img{
+    margin-right: 10px;
+    opacity: 0.5;
+    width:14%;
+}
+
+.header-img-last img{
+    margin-right: 10px;
+    opacity: 0.5;
+    width:14%;
+}
+
+.header-img-last{
+    position:absolute;
+    top:345px;
+    width: 46%;
+  
+
+}
+.header-img-salat{
+    position:absolute;
+    top:-150px;
+    left:150px;
+}
+.header-img-salat img{
+    width: 400px;
+}
+.header-img-batto{
+    width:700px;
+}
+.header-img-batto{
+    position:absolute;
+    top:20px;
+    left:-10px;
+}
+.header-img-batto img{
+    width: 100%
+}
+.header-input{
+    position:absolute;
+    top:639px;
+    left:69px;
+}
+.header-input input{
+  padding:20px;
+  border-color:white;
+ 
+}
+
+.header-from-input{
+    position:relative;
+   
+}
+
+.header-from-input button{
+    position:absolute;
+    top:-15px;
+    right:0px;
+    background-color:var(--color);
+    width: 131px;
+    padding:5px 0;
+    border-top-left-radius: 100px;
+    color: aliceblue;
+    border-color: white;
+    
+  
+}
+.header-from-input p{
+    font-size :30px;
+    margin:0px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.header-reajshahi{
+    position:absolute;
+    top: 892px;
+    display: flex;
+    background-color:var(--color);
+    width:160px;
+    padding-left: 20px;
+    color:white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.header-reajshahi i{ 
+  width: 20px; height:20px;margin-top:15px;
+}
+.header-reajshahi p { 
+ font-size:20px;
+ margin-left: 10px;;
+}
+.header-reajshahi-icon{
+    width:80px;
+  position:absolute;
+  top:912px;
+   left:1150px;
+    display:flex;
+    justify-content: space-between;
+}
+.header-reajshahi-icon i{
+  width:45px;
+  height:45px;
+  font-size:30px;
+  margin-left:82px;
+}
