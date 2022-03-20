@@ -210,6 +210,8 @@ color:#2E266F;
    left:1150px;
     display:flex;
     justify-content: space-between;
+    -ms-flex-direction: row-reverse;
+    
 }
 .header-reajshahi-icon i{
   width:45px;
