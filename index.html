@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiếu Liêm</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form action="/action_page.php" target="_blank" class="from" style="width: 300px; height:270px">
+        <div class="content">
+
+            <div>
+                Nhập Họ và Tên
+                <br>
+                <input type="text"  cols="30">
+            </div>
+           
+            <div>
+                Gới tính
+                <br>
+                <input type="radio" id="nam" name="goi_tinh" value="nam">
+                <label for="nam">Nam</label><br>
+                <input type="radio" id="Nữ" name="goi_tinh" value="nu">
+                <label for="Nữ">nữ</label><br>
+          
+    
+            </div>
+            <div>
+                Thành Phố sinh sống
+                <br>
+                <select name="Tp">
+                  <option value="">Hồ Chí Minh</option>
+                  <option value="">Cần Thơ</option>
+                  <option value="">Đà nẵng</option>
+                </select>
+            </div>
+            <div>
+                Sở thích
+                <br>
+               <input type="checkbox" id="bong_da"  name="bóng đá" value="bong_da">    
+               <label for="bong_da">Bóng Đá</label>
+
+
+               <input type="checkbox" id="boi"  name="boi" value="bơi">    
+               <label for="boi">Bơi lội</label>
+
+
+
+               <input type="checkbox" id="bong_ro"  name="bóng rổ" value="bong_ro">    
+               <label for="bong_ro">Bóng rổ</label>
+                <br>
+                <div> Các sở thích khác</div>
+               
+               
+                    <textarea  type="text" id="ban_than"  rows="2" cols="30" style="max-width:240px ;max-height:37px;"  >
+
+                    </textarea>
+            </div>
+            <button class="button">Submit</button>
+        </div>
+       
+
+      </form>
+</body>
+</html>
